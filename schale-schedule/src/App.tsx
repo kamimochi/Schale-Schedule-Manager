@@ -6,7 +6,7 @@ import {
 } from 'date-fns';
 import { ja } from 'date-fns/locale';
 import { ChevronLeft, ChevronRight, Moon, Sun, Calendar as CalendarIcon, ExternalLink } from 'lucide-react';
-import { eventsData, SchedulerEvent } from './data/events'; // 先ほど作成したデータ
+import { eventsData, type SchedulerEvent } from './data/events';
 
 // 曜日ヘッダー
 const WEEKDAYS = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
