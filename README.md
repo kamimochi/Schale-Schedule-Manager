@@ -1,0 +1,1 @@
+# Schale-Schedule-Manager
