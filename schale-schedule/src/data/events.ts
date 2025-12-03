@@ -19,11 +19,11 @@ export interface SchedulerEvent {
 export const eventsData: SchedulerEvent[] = [
   {
     id: 1,
-    title: "総力戦：ビナー（屋外戦）",
-    start: "2025-05-01T11:00:00",
-    end: "2025-05-07T03:59:59",
+    title: "総力戦：クロカゲ（市街地戦）",
+    start: "2025-11-26T11:00:00",
+    end: "2025-12-03T03:59:59",
     category: "game_event",
-    description: "総力戦「ビナー」開催！地形は屋外戦です。",
+    description: "総力戦「クロカゲ」開催！\n地形は市街地、防御タイプ弾力装甲・攻撃タイプ神秘です。",
     url: "#",
     isPickup: true,
     color: "bg-cyan-500",
@@ -31,36 +31,26 @@ export const eventsData: SchedulerEvent[] = [
   },
   {
     id: 2,
-    title: "大決戦：カイテンジャー",
-    start: "2025-05-15T11:00:00",
-    end: "2025-05-21T03:59:59",
-    category: "game_event",
-    description: "大決戦開催。防御タイプに注意して編成を組みましょう。",
-    isPickup: true,
-    color: "bg-blue-600"
-  },
-  {
-    id: 3,
-    title: "夏のブルアカらいぶ！SP",
-    start: "2025-07-19T18:00:00",
-    end: "2025-07-19T22:00:00",
+    title: "ブルアカふぇす！～ごー!ごー!!先生♪～",
+    start: "2025-01-17T09:00:00",
+    end: "2025-01-18T18:00:00",
     category: "real_event",
-    description: "ブルーアーカイブ4.5周年を記念し、同時に公開生放送も行われます！\n詳しくは公式サイトをチェック！",
-    url: "https://example.com",
+    description: "ブルーアーカイブの5周年を記念したリアルイベントです！\n詳しくは公式サイトをチェック！",
+    url: "https://5th-anniversary.bluearchive.jp",
     urlText: "公式サイト",
     imageUrl: "/images/live_banner.jpg", // publicフォルダに画像を置く想定
     isPickup: true,
     color: "bg-pink-500",
     displayMode: "start_only" // カレンダー上では開始日のみ表示する等の制御用
   },
-  // 長期メンテナンスの例
+  // 以下メンテナンス(番号大きめ)
   {
-    id: 4,
+    id: 1000,
     title: "メンテナンス",
-    start: "2025-05-28T11:00:00",
-    end: "2025-05-28T19:00:00",
+    start: "2025-12-03T11:00:00",
+    end: "2025-12-03T17:00:00",
     category: "maintenance",
-    description: "定期メンテナンス",
+    description: "定期メンテナンス\n前後する可能性があります",
     isPickup: false,
     color: "bg-gray-500",
     displayMode: "range"
